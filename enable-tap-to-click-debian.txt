@@ -4,7 +4,10 @@ Install xserver-xorg-input-libinput:
 
 ### masuk mode root ###
 
-create file 40-libinput.conf dengan copas di bawah:
+### buat folder mkdir /etc/X11/xorg.conf.d
+### masuk ke /etc/X11/xorg.conf.d
+
+create file 40-libinput.conf dengan mengcopas di bawah ke terminal linux:
 
 echo 'Section "InputClass"
         Identifier "libinput touchpad catchall"

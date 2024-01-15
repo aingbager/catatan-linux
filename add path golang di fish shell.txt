@@ -1,0 +1,13 @@
+### masuk directory config fish
+=> nvim .config/fish/fish.config
+
+tambahkan parameter berikut didalam config fish
+
+set -x GOROOT  /usr/local/go
+set -x PATH $PATH $GOROOT/bin
+
+set -x GOPATH $HOME/go
+set -x PATH $PATH $GOPATH/bin
+
+### lalu reload config fish
+source ~/.config/fish/config.fish
